@@ -277,7 +277,7 @@ p { margin: 0 0 1em; }
 .facts div { padding: 18px 34px 18px 0; margin-right: 34px; border-right: 1px solid var(--line); }
 .facts div:last-child { border-right: 0; margin-right: 0; }
 .facts span { display: block; font-size: 10px; letter-spacing: 0.26em; text-transform: uppercase; color: var(--taupe); }
-.facts strong { font-family: var(--serif); font-weight: 400; font-size: 28px; }
+.facts strong { font-family: var(--serif); font-weight: 400; font-size: 28px; white-space: nowrap; }
 
 .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(20px, 3vw, 44px); counter-reset: step; }
 .step { border-top: 1px solid var(--line); padding-top: 26px; }
