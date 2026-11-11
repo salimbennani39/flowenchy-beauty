@@ -1,0 +1,4 @@
+.claude/
+*.webloc
+.DS_Store
+__pycache__/
