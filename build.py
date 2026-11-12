@@ -67,6 +67,7 @@ def page(filename, title, description, body, current=None, extra_head=""):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
 <title>{escape(title)}</title>
 <meta name="description" content="{escape(description)}">
 <meta property="og:title" content="{escape(title)}">
@@ -146,6 +147,7 @@ def page(filename, title, description, body, current=None, extra_head=""):
   </div>
 </footer>
 <div class="sticky-book">{book_btn("Réserver")}</div>
+<div class="sc-preview" role="note">Aperçu <a href="https://showcasecreativehouse.com" target="_blank" rel="noopener">SHOWCASE</a> · pas encore en ligne</div>
 <script src="assets/main.js" defer></script>
 </body>
 </html>
